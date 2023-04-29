@@ -1,6 +1,7 @@
 * {
     font-family: sans-serif;
  }
+
 .page {
     margin-right: auto;
     margin-left: auto;
@@ -12,15 +13,16 @@
 .nav {
     background-color: #ffffff;
     overflow: hidden;
+    font-weight: bold;
   }
   
 .nav a {
     float: left;
     color: #000000;
     text-align: center;
-    padding: 14px 16px;
+    padding: 12px 14px;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 14px;
     border: 1px solid black;
   }
 
@@ -33,10 +35,14 @@
     background-color: #acacac;
     color: white;
   }
+
   a:active{
     color: blue;
-    font-weight: bolder;
   }
+
+  .centercaption .centerlist{
+    text-align: center;
+   }
   .title{
     text-align: center;
   }
@@ -50,18 +56,42 @@
     max-height: 100%;
     border: 3px solid rgb(0, 0, 0);
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    -webkit-transition-property: all; 
-    -webkit-transition-duration: 0.1s; 
-    -webkit-transition-timing-function: ease;
+    height: auto;
   }
 
-  h1 figure figcaption img{
+  h1 img{
     text-align: center;
   }
+
   figcaption{
     padding: 20px;
+    font-size: 14px;
   }
+
  .right-img{
   text-align: center;
   scale: 50%;
  }
+
+ .link:active{
+  font-weight: bold;
+ }
+ 
+ .link:hover{
+  color: #2b49f5;
+ }
+
+ #gallery {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-auto-flow: dense;
+}
+.galleryimg{
+  width: 100%;
+  height: 100%;
+  border: 2px solid white;
+}
+.galleryimg:hover{
+  filter: brightness(80%);
+}
+

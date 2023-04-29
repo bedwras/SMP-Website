@@ -1,6 +1,5 @@
 - Make a layout for pages that include images on the right side of the screen
 - Make a better page design
-- Add an info page
-- Add a mayor page
-- Write descriptions for images
-- Make a map page
+- Write descriptions for images DONE
+- Make a map page DONE
+- Add a photo gallery DONE
