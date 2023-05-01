@@ -97,6 +97,8 @@ html{
 }
 .galleryimg:hover{
   filter: brightness(80%);
+  border: 3px solid white;
+  z-index: 999;
 }
 .galleryimg:active{
   filter: brightness(70%);
