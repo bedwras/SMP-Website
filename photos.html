@@ -9,16 +9,17 @@
     <title>Photo Gallery</title>
 </head>
 <body>
-    <div class="nav">
-        <a href="index.html">Home</a>
-        <a href="streets.html">Streets</a>
-        <a href="map.html">Map</a>
-        <a href="photos.html">Photo Gallery</a>
-      </div> 
     <div class="welcome">
         <h1 class="title">Photo Gallery</h1>
         <p class="center" style="text-align: center;">Click on images to view them in a new tab</p>
     </div>
+    <div class="nav">
+        <a href="index.html" class="navbtn">Home</a>
+        <a href="streets.html" class="navbtn">Streets</a>
+        <a href="map.html" class="navbtn">Map</a>
+        <a href="photos.html" class="navbtn">Photo Gallery</a>
+        <a href="history.html" class="navbtn" onclick="NoPage()">Historical Events</a>
+      </div> 
     <div class="page">
         <div id="gallery">
             <a href="AddictLane.png" title="click to enlarge image (Addict Lane)" target="_blank"><img src="AddictLane.png" alt="Addict Lane" class="galleryimg"></a>
@@ -51,9 +52,22 @@
             <a href="enderdragon_death.png" title="click to enlarge image (Death of the Ender Dragon)" target="_blank"><img src="enderdragon_death.png" alt="Death of the Ender Dragon" class="galleryimg"></a>
             <a href="oldsmpmap2021.png" title="click to enlarge image (Old map of the smp from 2021)" target="_blank"><img src="oldsmpmap2021.png" alt="Old map of the smp from 2021" class="galleryimg"></a>
             <a href="cliff.png" title="click to enlarge image (cliff)" target="_blank"><img src="cliff.png" alt="cliff" class="galleryimg"></a>
-             <a href="raid.png" title="click to enlarge image (raid)" target="_blank"><img src="raid.png" alt="raid" class="galleryimg"></a>
+            <a href="raid.png" title="click to enlarge image (raid)" target="_blank"><img src="raid.png" alt="raid" class="galleryimg"></a>
+            <a href="curse1.png" title="click to enlarge image (The curse)" target="_blank"><img src="curse1.png" alt="The curse" class="galleryimg"></a>
+            <a href="curse2.png" title="click to enlarge image (The curse)" target="_blank"><img src="curse2.png" alt="The curse" class="galleryimg"></a>
           </div>
     </div>
 
 </body>
+<script>
+    function NoPage() {
+      var txt;
+      if (alert("This page doesn't exist yet.")) {
+        txt = "Closed";
+      } else {
+        txt = "Closed";
+      }
+      document.getElementById("closed").innerHTML = txt;
+    }
+    </script>
 </html>

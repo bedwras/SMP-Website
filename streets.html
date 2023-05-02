@@ -9,16 +9,17 @@
     <title>Streets</title>
 </head>
 <body>
-    <div class="nav">
-        <a href="index.html">Home</a>
-        <a href="streets.html">Streets</a>
-        <a href="map.html">Map</a>
-        <a href="photos.html">Photo Gallery</a>
-      </div> 
     <div class="welcome">
         <h1 class="title">Streets</h1>
         <h3 style="text-align: center;">Click a street below to view info about it</h3>
     </div>
+    <div class="nav">
+        <a href="index.html" class="navbtn">Home</a>
+        <a href="streets.html" class="navbtn">Streets</a>
+        <a href="map.html" class="navbtn">Map</a>
+        <a href="photos.html" class="navbtn">Photo Gallery</a>
+        <a href="history.html" class="navbtn" onclick="NoPage()">Historical Events</a>
+      </div> 
     <div class="page">
         <ul style= "list-style: none; text-align: center;">
             <li><a href="dirtstreet.html" style="text-decoration: none;" class="link">Dirt Street</a></li><br>
@@ -29,4 +30,15 @@
         </ul> 
     </div>
 </body>
+<script>
+    function NoPage() {
+      var txt;
+      if (alert("This page doesn't exist yet.")) {
+        txt = "Closed";
+      } else {
+        txt = "Closed";
+      }
+      document.getElementById("closed").innerHTML = txt;
+    }
+    </script>
 </html>

@@ -9,15 +9,17 @@
     <title>Oak Street</title>
 </head>
 <body>
-    <div class="nav">
-        <a href="index.html">Home</a>
-        <a href="streets.html">Streets</a>
-        <a href="map.html">Map</a>
-        <a href="photos.html">Photo Gallery</a>
-      </div> 
     <div class="welcome">
         <h1 class="title">Oak Street</h1>
     </div>
+    <div class="nav">
+        <a href="index.html" class="navbtn">Home</a>
+        <a href="streets.html" class="navbtn">Streets</a>
+        <a href="map.html" class="navbtn">Map</a>
+        <a href="photos.html" class="navbtn">Photo Gallery</a>
+        <a href="history.html" class="navbtn" onclick="NoPage()">Historical Events</a>
+      </div> 
+
     <div class="page">
         <figure>
         <a href="OakStreet.png" target="_blank" title="click to enlarge image"><img src="OakStreet.png"></a>
@@ -33,4 +35,15 @@
     </div>
 
 </body>
+<script>
+    function NoPage() {
+      var txt;
+      if (alert("This page doesn't exist yet.")) {
+        txt = "Closed";
+      } else {
+        txt = "Closed";
+      }
+      document.getElementById("closed").innerHTML = txt;
+    }
+    </script>
 </html>

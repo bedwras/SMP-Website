@@ -4,6 +4,7 @@ html{
 
 * {
     font-family: sans-serif;
+    
  }
 
 .page {
@@ -12,19 +13,27 @@ html{
     border: 2px solid black;
     padding: 20px;
     object-fit: contain;
+    max-width: 850px;
  }
 
 .nav {
     background-color: #ffffff;
     overflow: hidden;
     font-weight: bold;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    top: 0;
+    background-color: #ecebeb;
+    max-width: 891px;
+    margin: 0 auto;
   }
   
 .nav a {
     float: left;
     color: #000000;
     text-align: center;
-    padding: 12px 14px;
+    padding: 16px 22px;
     text-decoration: none;
     font-size: 14px;
     border: 1px solid black;
