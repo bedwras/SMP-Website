@@ -20,13 +20,13 @@ html{
     background-color: #ffffff;
     overflow: hidden;
     font-weight: bold;
-    display: flex;
-    justify-content: center;
     border: 1px solid black;
     top: 0;
     background-color: #ecebeb;
     max-width: 891px;
     margin: 0 auto;
+    text-align: center;
+    object-fit: contain;
   }
   
 .nav a {
@@ -35,8 +35,9 @@ html{
     text-align: center;
     padding: 16px 22px;
     text-decoration: none;
-    font-size: 14px;
+    
     border: 1px solid black;
+    
   }
 
 .nav a:hover {
