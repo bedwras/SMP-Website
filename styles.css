@@ -142,3 +142,6 @@ th{
 tr{
   background-color: #8f8f8f;
 }
+a:active{
+  filter: brightness(70%);
+}
