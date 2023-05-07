@@ -51,6 +51,7 @@ html {
 
   a:active {
     color: blue;
+    filter: brightness(70%);
   }
 
   .centercaption, .centerlist {
@@ -92,6 +93,7 @@ html {
  
  .link:hover {
   color: #2b49f5;
+  text-decoration: underline;
  }
 
  #gallery {
@@ -142,8 +144,4 @@ th {
 }
 tr {
   background-color: #8f8f8f;
-}
-a:active {
-  filter: brightness(70%);
-  text-decoration: underline;
 }
