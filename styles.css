@@ -4,7 +4,7 @@ html {
 
 * {
     font-family: sans-serif;
-    
+    border-radius: 2px;
  }
 
 .page {
@@ -53,7 +53,7 @@ html {
     color: blue;
   }
 
-  .centercaption .centerlist {
+  .centercaption, .centerlist {
     text-align: center;
    }
   .title {
@@ -112,6 +112,7 @@ html {
 }
 .galleryimg:active {
   filter: brightness(70%);
+
 }
 .hdata {
   border: 1px solid black;
@@ -136,12 +137,13 @@ html {
   border:1px solid;
   padding:6px;
 }
-th{
+th {
   background-color: #8fa0fc;
 }
-tr{
+tr {
   background-color: #8f8f8f;
 }
-a:active{
+a:active {
   filter: brightness(70%);
+  text-decoration: underline;
 }
