@@ -92,7 +92,7 @@ html {
  }
  
  .link:hover {
-  color: #2b49f5;
+  color: #0026ff;
   text-decoration: underline;
  }
 
@@ -144,4 +144,8 @@ th {
 }
 tr {
   background-color: #8f8f8f;
+}
+
+.link:visited {
+  color: rgb(44, 44, 245);
 }
