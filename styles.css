@@ -1,13 +1,13 @@
-html {
+ html {
   scroll-behavior: smooth;
-}
+ }
 
-* {
+ * {
     font-family: sans-serif;
     border-radius: 2px;
  }
 
-.page {
+ .page {
     margin-right: auto;
     margin-left: auto;
     border: 2px solid black;
@@ -16,11 +16,11 @@ html {
     max-width: 850px;
  }
 
-.nav {
+ .nav {
     background-color: #ffffff;
     overflow: hidden;
     font-weight: bold;
-    border: 1px solid black;
+    border: 2px solid rgb(62, 62, 62);
     top: 0;
     background-color: #ecebeb;
     max-width: 891px;
@@ -32,15 +32,18 @@ html {
   .nav a:hover {
     background-color: #bbbbbb;
     color: black;
+    border: 1px solid rgb(0, 0, 0);
+    border-style: inset;
+    transition-duration: 0.2s;
   }
 
   .navbtn:active {
     border-style: inset;
-    background-color: #535353;
+    background-color: #343434;
     color: blue;
   }
   
-.nav a {
+ .nav a {
     float: left;
     color: #000000;
     text-align: center;
@@ -51,7 +54,6 @@ html {
 
   a:active {
     color: blue;
-    filter: brightness(70%);
   }
 
   .centercaption, .centerlist {
@@ -78,8 +80,9 @@ html {
   }
 
   figcaption {
-    padding: 20px;
-    font-size: 14px;
+    padding: 15px;
+    font-size: 16px;
+    text-align: left;
   }
 
  .right-img {
@@ -89,6 +92,8 @@ html {
 
  .link:active {
   font-weight: bold;
+  border: 2px solid #6177f6;
+  padding: 4px;
  }
  
  .link:hover {
@@ -96,56 +101,57 @@ html {
   text-decoration: underline;
  }
 
+ .link:visited {
+  color: rgb(44, 44, 245);
+ }
+
  #gallery {
   display: grid;
   grid-template-columns: repeat(3,1fr);
   grid-auto-flow: dense;
-}
-.galleryimg {
+ }
+ .galleryimg {
   width: 100%;
   height: 100%;
   border: 2px solid white;
   z-index: 998
-}
-.galleryimg:hover {
+ }
+ .galleryimg:hover {
   filter: brightness(80%);
   border: 3px solid white;
   z-index: 999;
-}
-.galleryimg:active {
+ }
+ .galleryimg:active {
   filter: brightness(70%);
 
-}
-.hdata {
+ }
+ .hdata {
   border: 1px solid black;
-}
+ }
 .hhead {
   border: 1px solid black;
 }
 
-.history {
+ .history {
   width:100%;
   height:100%;
   border:1px solid;
   border-collapse:separate;
   padding:6px;
-}
-.history, th {
+ }
+ .history, th {
   border:1px solid;
   padding:6px;
   background:#F0F0F0;
-}
-.history, td {
+ }
+ .history, td {
   border:1px solid;
   padding:6px;
-}
-th {
+ }
+ th {
   background-color: #8fa0fc;
-}
-tr {
+ }
+ tr {
   background-color: #8f8f8f;
-}
+ }
 
-.link:visited {
-  color: rgb(44, 44, 245);
-}
