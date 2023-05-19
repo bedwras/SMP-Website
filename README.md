@@ -1,5 +1,3 @@
 # SMP-Website
-Website for the minecraft SMP
-WIP
+Website for the minecraft SMP. Updated often!
 ______
-
