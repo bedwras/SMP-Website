@@ -1,4 +1,4 @@
-- Make a layout for pages that include images on the right side of the screen
+
 - Make a better page design
 - Write descriptions for images DONE
 - Make a map page DONE

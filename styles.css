@@ -33,14 +33,14 @@
   .navbtn:hover {
     background-color: #e6e6e6;
     color: black;
-    transition-duration: 0.2s;
+    transition-duration: 120ms;
     border-style: inset;
   }
 
   .navbtn:active {
     border-style: inset;
     background-color: #a0a0a0;
-    transition-duration: 0.2s;
+    transition-duration: 120ms;
     border: 1px solid rgb(0, 0, 0);
   }
   
