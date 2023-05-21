@@ -119,7 +119,7 @@
   border: 3px solid white;
   z-index: 999;
  }
- .galleryimg:active {
+ .galleryimg:active, img:active {
   filter: brightness(70%);
 
  }
