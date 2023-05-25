@@ -7,6 +7,12 @@
     border-radius: 2px;
  }
 
+/*-------------------*\
+
+        page
+
+\*-------------------*/
+
  .page {
     margin-right: auto;
     margin-left: auto;
@@ -103,6 +109,12 @@
   color: rgb(44, 44, 245);
  }
 
+/*-------------------*\
+
+      photo gallery
+
+\*-------------------*/
+
  #gallery {
   display: grid;
   grid-template-columns: repeat(3,1fr);
@@ -121,6 +133,12 @@
  }
  .galleryimg:active, img:active {
   filter: brightness(70%);
+
+/*-------------------*\
+
+        lists and tables
+
+\*-------------------*/
 
  }
  .hdata {
