@@ -98,11 +98,16 @@
  }
  .link:active {
   border: 2px solid #6177f6;
+  background-color: rgba(98, 98, 98, 0.734);
+  transition-duration: 0.2s;
+  border-radius: 2px;
  }
  
  .link:hover {
   color: #0026ff;
   text-decoration: underline;
+  transition-duration: 300ms;
+  background-color: rgba(98, 98, 98, 0.645);  
  }
 
  .link:visited {
