@@ -1,3 +1,2 @@
 # SMP-Website
-Website for the minecraft SMP. Updated often!
-______
+Website for the minecraft SMP. Updated with notable changes.
