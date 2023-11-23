@@ -138,7 +138,7 @@
  }
  .galleryimg:active, img:active {
   filter: brightness(70%);
-
+ }
 /*-------------------*\
 
         lists and tables
